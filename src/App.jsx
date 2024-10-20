@@ -74,11 +74,9 @@ export default function MyApp() {
       <div className="container my-5">
         <Routes>
 
-          <Route  exact path="/textinput" element={<TextInput mode={mode} ShowAlert={ShowAlert} />
-         }/>
+          <Route  exact path="/textinput" element={<TextInput mode={mode} ShowAlert={ShowAlert} /> }/> 
             
-          <Route exact 
-          path="/about" element={<About />}/>
+          <Route exact  path="/about" element={  <About />  }/>
       
         </Routes>
        
